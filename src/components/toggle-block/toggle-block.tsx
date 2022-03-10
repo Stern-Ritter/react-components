@@ -13,7 +13,7 @@ function ToggleBlock({ title, children }: ToggleBlock) {
   };
 
   return (
-    <div>
+    <div data-testid="toggle">
       <h4 className={styles.title} onClick={toggleVisibility}>
         {title}
       </h4>
