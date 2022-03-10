@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type SpaceBlockType = {
   blockHeight: number;
@@ -6,7 +6,11 @@ type SpaceBlockType = {
   separatorColor: string;
 };
 
-function SpaceBlock({ blockHeight, separatorHeight, separatorColor }: SpaceBlockType) {
+function SpaceBlock({
+  blockHeight,
+  separatorHeight,
+  separatorColor,
+}: SpaceBlockType) {
   return (
     <div
       data-testid="space"

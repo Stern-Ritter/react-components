@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styles from './toggle-block.module.css';
+import React, { useState } from "react";
+import styles from "./toggle-block.module.css";
 
 type ToggleBlock = {
   title: string;
