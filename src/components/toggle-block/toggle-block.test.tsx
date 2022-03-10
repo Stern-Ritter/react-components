@@ -1,6 +1,4 @@
-import React from "react";
-import ToggleBlock from "./toggle-block";
+import React from 'react';
+import ToggleBlock from './toggle-block';
 
-describe('Component ToggleBlock', () => {
-
-});
+describe('Component ToggleBlock', () => {});

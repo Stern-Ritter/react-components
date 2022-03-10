@@ -11,6 +11,7 @@ type TextBlockType = {
 function TextBlock({ fontFamily, fontSize, color, children }: TextBlockType) {
   return (
     <p
+      data-testid="paragraph"
       className={styles.text}
       style={{
         fontFamily,
