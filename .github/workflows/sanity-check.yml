@@ -18,6 +18,3 @@ jobs:
       - name: Test check
         run: |
           npm run test
-      - name: Test check
-        run: |
-          npm run loki:test
